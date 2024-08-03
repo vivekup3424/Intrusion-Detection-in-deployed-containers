@@ -1,8 +1,5 @@
 # Intrusion and Anamoly Detection system on containers
-<!-- markdown-link-check-disable -->
-![PyLint](https://github.com/vivekup3424/Intrusion-Detection-in-deployed-containers/actions/workflows/code.yml/badge.svg)
-![DocLint](https://github.com/vivekup3424/Intrusion-Detection-in-deployed-containers/actions/workflows/doc.yml/badge.svg)
-<!-- markdown-link-check-enable -->
+
 # and resource-intensive application
 
 1. The project's focus is on leveraging technology and integrated networks

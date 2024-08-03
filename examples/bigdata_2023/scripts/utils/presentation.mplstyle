@@ -1,0 +1,63 @@
+# Set default figure size
+figure.figsize : 3.8, 2.6
+figure.dpi : 300
+
+# Set x axis
+xtick.direction : in
+xtick.major.size : 3
+xtick.major.width : 0.5
+xtick.minor.size : 1.5
+xtick.minor.width : 0.5
+xtick.minor.visible : False
+xtick.top : True
+
+# Set y axis
+ytick.direction : in
+ytick.major.size : 3
+ytick.major.width : 0.5
+ytick.minor.size : 1.5
+ytick.minor.width : 0.5
+ytick.minor.visible : True
+ytick.right : True
+
+# Set line widths
+axes.linewidth : 0.5
+grid.linewidth : 0.5
+lines.linewidth : 1.
+
+# Remove legend frame
+legend.frameon : False
+
+# Always save as 'tight'
+savefig.bbox : tight
+savefig.pad_inches : 0.05
+
+# Use serif fonts
+font.serif : cmr10, Computer Modern Serif, DejaVu Serif
+font.family : serif
+font.size : 10
+xtick.labelsize : 8
+ytick.labelsize : 8
+axes.formatter.use_mathtext : True
+mathtext.fontset : cm
+
+# Adjust axes and grid
+axes.grid: False
+axes.grid.axis: y
+axes.facecolor: "ededed"
+grid.alpha : 0.2
+legend.loc: lower left
+
+# Adjust boxplot
+boxplot.patchartist: True
+boxplot.flierprops.color: black
+boxplot.flierprops.markersize: 1
+boxplot.whiskerprops.color: black
+boxplot.whiskerprops.linewidth: 1
+boxplot.medianprops.color: black
+boxplot.medianprops.linewidth: 1
+boxplot.capprops.color: black
+boxplot.capprops.linewidth: 1
+boxplot.boxprops.color: green
+boxplot.boxprops.linewidth: 1
+boxplot.boxprops.linestyle: -
